@@ -12,14 +12,27 @@
   
 <body>
   {% include 'nav.html' %}
-  <div class ="container">
-  <h1 class = "text-center mt-2 mb-4"> {{compnay_name}} Careers</h1>
 
-  <img clss= "img-fluid" id="banner"  src=  "/static/banner.jpg" height="300" width= 100%>
-  <h2 class = "text-center mt-2 mb-4"> About Iubian</h2>
+
+  
+
+  <img clss= "img-fluid mb-2" id="banner"  src=  "/static/banner.jpg" height="300" width= 100%>
+
+  
+  <div class ="container">
+  
+    <h1 class = "text-center mt-2 mb-4"> {{compnay_name}} Careers</h1>
+    <div class="row" style="margin-bottom:6px">
+      <div class="col-md-6">
   <p class="lead">
     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
   </p>
+      </div>
+    <div class="d-none d-md-block col-md-6">
+      
+         <img clss= "img-fluid  mt-2" id="people"  src=  "/static/people.jpg" style="height:320px;width:100%; border: 1px solid red; border-radius: 2px;">
+    </div>
+    </div>
   <h2 class ="mt-2 mb-4 text-center"> Open Positions  </h2>
 
     
@@ -41,19 +54,19 @@
 
 
   <!-- Remove the container if you want to extend the Footer to full width. -->
-  <div class="container my-5">
+  
 
-    <footer class="bg-dark text-center text-white">
+    <footer class="bg-dark text-center mt-2 text-white">
  
 
     <!-- Copyright -->
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
       © 2023 Copyright:
-      <a class="text-white" href="https://mdbootstrap.com/">Iubian.com</a>
+      <a class="text-white" href="https://amer-career-website.onrender.com/">Iubian.com</a>
     </div>
     <!-- Copyright -->
   </footer>
 
-  </div>
+
   <!-- End of .container -->
 </html>
